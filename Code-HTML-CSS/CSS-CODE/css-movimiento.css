@@ -1,0 +1,129 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
+}
+
+.box-barra {
+    display: flex;
+    background-color: #000000;
+    justify-content: space-around;
+    margin: 12px;
+    height: 45px;
+}
+
+.select-barra{
+    color: #ffffff;
+    background-color: #000000;
+    border: 6px solid transparent;
+}
+
+.button-barra {
+	color: #fff; background-color: #59B0E5;
+	border: 1px solid #59B0E5;
+	cursor: pointer;
+}
+
+.tab-creado {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 12px;
+}
+
+.botones-tab {
+    color: #000000; background-color: #ffffff;
+    border: 4px solid #ffffff;
+    cursor: pointer;
+    height: 80px;
+    font-size: 150%
+}
+
+.botones-tab:hover{
+    border-bottom: 4px solid  #00ABEB;
+
+}
+
+.titulos-select{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin: 12px;
+}
+
+.contenido-select{
+    display: flex;
+    margin: 12px;
+}
+
+.select-personalizado{
+    border:2px solid #E7E7E7;
+    height: 60px;
+    width: 220px;
+    text-align: center;
+}
+
+.fecha {
+    border:2px solid #E7E7E7;
+    text-align: center;
+    height: 60px;
+    width: 220px;
+}
+
+.boton-eliminar{
+    border: 2px solid #ffffff;
+    height: 60px;
+    width: 220px;
+    margin-left: 80px;
+    text-align: center;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+hr {
+    margin-left: 80px;
+    margin-right: 80px;
+    border: 1px solid #000000;
+}
+
+.contenedor-tabla {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 40px;
+}
+
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead tr {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+tbody td {
+    text-align: center;
+    padding: 15px;
+    font-family:'Lucida Sans';
+    font-weight:300;
+}
+
+.centrado{
+    align-items: center;
+    vertical-align: middle;
+}
+
+.color{
+    color: #59B0E5;
+    font-size:large;
+}
+
+.negrita{
+    font-weight: bold;
+    font-size: larger;
+}
+
