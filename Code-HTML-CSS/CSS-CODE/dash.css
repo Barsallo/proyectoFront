@@ -1,0 +1,124 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.junt p {
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+
+.glob{  
+      display: inline-block;
+      margin: 60px;
+      margin-left: 110px;
+      border-color: black;
+      border: solid;
+      width: 33.33%;
+      justify-content: space-between;
+
+}
+
+
+
+.bemerg {
+  border-radius: 5px;
+  background-color:#00ABEB;
+  text-align: center;
+  width: 100px;
+  border: 0ch;
+  color: white;
+  height: 25px; 
+  
+ 
+  
+}
+.bienvenida{
+    position: absolute;
+    left: 0;
+}
+
+.correo{
+    position: absolute;
+    right: 0;
+}
+
+.boton{
+    text-align: center;
+    margin: 0px 30px 30px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 150px;
+
+}
+
+.saludo{
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    margin-top: -28px;
+}
+
+nav{
+    background-color: black;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav select{
+    background-color: black;
+    color: white;
+    border: black;
+
+}
+
+ p:first-child{
+    font-weight: bold;
+}
+
+.ofert{
+    background-color: #00ABEB;
+    color: white;
+    margin-right: 20px;
+    width: 130;
+    text-align: center;
+}
+
+.product{
+    margin-left: 20px;
+}
+
+.marDer{
+   margin-left:400px;
+}
+
+.sesion{
+      
+    border-left: solid;
+    position: absolute;
+    
+}   
+
+.ctn{
+    position: relative;
+}
+
+.ots p{
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+
+.perfil{
+    margin-left: 660px;
+}
+
+.alinear{
+    margin-left: 20px;
+}
+
+
