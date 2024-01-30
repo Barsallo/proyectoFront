@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="../CSS-CODE/css-movimiento.css" rel="stylesheet" type="text/css" />
+    <title>Movimientos</title>
+  </head>
+  <body>
+    <!--Una box con el nombre de usuario y el ejecutivo que lo atiende-->
+    <div class="box">
+        <p>
+            <span>Hola,</span>
+            <span class="negrita">Nelson Alejandro</span>
+        </p>
+        
+        <p>Ejecutivo: Jóse Francisco Nieves -jnieves@consultec-ti.com</p>
+    </div>
+    <!--Una barra donde se muestran opciones desplegables y icocnos con svg-->
+    <div class="box-barra">
+        <img  height="40" width="40" src="home.svg">
+        <select class="select-barra" name="productos">
+            <option value="value1" selected>Productos</option>
+            <option value="value2" >Value 2</option>
+            <option value="value3">Value 3</option>
+        </select>
+        <select class="select-barra" name="Transferencias">
+            <option value="value1" selected>Transferencias</option>
+            <option value="value2" >Value 2</option>
+            <option value="value3">Value 3</option>
+        </select>
+        <select class="select-barra" name="Pagos">
+            <option value="value1" selected>Pagos</option>
+            <option value="value2" >Value 2</option>
+            <option value="value3">Value 3</option>
+        </select>
+        <select class="select-barra" name="Inversiones">
+            <option value="value1" selected>Inversiones</option>
+            <option value="value2" >Value 2</option>
+            <option value="value3">Value 3</option>
+        </select>
+        <button class="button-barra" name="mis-productos" type="button">
+            Mis Ofertas
+            <img src="circle-3-filled.svg">
+        </button>
+    </div>
+    <!--Tab desde 0 hecha con botonos y pintadas el boder-bottom-->
+    <div class="tab-creado">
+        <button class="botones-tab">Cuenta Corriente</button>
+        <button class="botones-tab">Linea de credito</button>
+    </div>
+    <!--Serie de grid en columnas de 4 para varias filas-->
+    <div class="titulos-select">
+        <!--Titulos de los select-->
+        <p>
+            <span class="color">Busca por mes</span>
+            <span>(Hasta ocho meses)</span>
+        </p>
+        <p>
+            <span class="color">Busca por Fecha</span>
+            <span>(hasta 12 meses)</span>
+        </p>
+        
+    </div>
+    <div class="contenido-select">
+        <!--contenido de los select-->
+        <select class="select-personalizado" name="mes">
+            <option disabled selected>Selecciona el mes</option>
+            <option value="value1" >Enero</option>
+            <option value="value2" >Febrero</option>
+            <option value="value3">Marzo</option>
+        </select>
+        <hr>
+        <input class="fecha" type="date" id="start" name="trip-start" min="2018-01-01" max="2024-12-31" />
+        <button class="boton-eliminar" name="eliminar" type="button"><img src="xbox-x.svg">Limpiar filtros</button>
+    </div>
+    <!--tabla-->
+    <div class="contenedor-tabla">
+        <table>
+            <thead>
+              <th>Fecha</th>
+              <th>Descripción del movimiento</th>
+              <th>N° documento</th>
+              <th>Cargos</th>
+              <th>Abonos</th>
+              <th>Saldo</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024/01/23</td>
+                    <td>Abono interes ahorros</td>
+                    <td>12345678910</td>
+                    <td>-$89,00</td>
+                    <td>$1.489,00</td>
+                    <td>$1.4000,00</td>
+                  </tr>
+                  <tr>
+                      <td>2024/01/23</td>
+                      <td>Abono interes ahorros</td>
+                      <td>12345678910</td>
+                      <td>-$89,00</td>
+                      <td>$1.489,00</td>
+                      <td>$1.4000,00</td>
+                    </tr>
+                    <tr>
+                      <td>2024/01/23</td>
+                      <td>Abono interes ahorros</td>
+                      <td>12345678910</td>
+                      <td>-$89,00</td>
+                      <td>$1.489,00</td>
+                      <td>$1.4000,00</td>
+                    </tr>
+                    <tr>
+                      <td>2024/01/23</td>
+                      <td>Abono interes ahorros</td>
+                      <td>12345678910</td>
+                      <td>-$89,00</td>
+                      <td>$1.489,00</td>
+                      <td>$1.4000,00</td>
+                    </tr>
+            </tbody>
+          </table>
+    </div>
+  </body>
+</html>
