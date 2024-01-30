@@ -128,7 +128,7 @@ tbody td {
 }
 
 [type="date"] {
-    background:#fff url(../calendar-month.svg)  97% 50% no-repeat ;
+    background:#fff url(../Imagenes/calendar-month.svg)  97% 50% no-repeat ;
   }
   [type="date"]::-webkit-inner-spin-button {
     display: none;
