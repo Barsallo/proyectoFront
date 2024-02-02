@@ -2,11 +2,31 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link href="../CSS-CODE/css-movimiento.css" rel="stylesheet" type="text/css" />
+    <link href="CSS-CODE/css-movimiento.css" rel="stylesheet" type="text/css" />
     <title>Movimientos</title>
   </head>
   <body>
     <!--Una box con el nombre de usuario y el ejecutivo que lo atiende-->
+    <nav>
+        <img width="160" height="48" src="../Imagenes/logo-consultec.png">
+        <div class="nav-opciones">
+            <select class="desplegable" name="perfil" id="perfil">
+            <option disabled selected>Perfil</option>
+            <option value="cuenta">Mis datos personal</option>
+            </select>
+            <select class="desplegable" name="contactanos" id="contactanos">
+                <option disabled selected>Contáctanos</option>
+                <option value="cuenta">acerca de nosotros</option>
+            </select>
+            
+           <button class="boton-emergencia"><img src="../Imagenes/bocina.svg">Emergencia<img src="../Imagenes/down.svg"></button>
+            <hr class="hr-1">
+            <button class="logout">Cerrar sesión<img src="../Imagenes/logout.svg"></button>
+        </div>
+        
+        
+        
+    </nav>
     <div class="box">
         <p>
             <span>Hola,</span>
@@ -69,8 +89,8 @@
             <option value="value2" >Febrero</option>
             <option value="value3">Marzo</option>
         </select>
-        <hr>
-        <input class="fecha" type="date" id="start" name="trip-start" min="2018-01-01" max="2024-12-31" />
+        <hr class="hr-2">
+        <input class="fecha"  type="date" id="start" name="trip-start" min="2018-01-01" max="2024-12-31" />
         <button class="boton-eliminar" name="eliminar" type="button"><img src="../Imagenes/xbox-x.svg">Limpiar filtros</button>
     </div>
     <!--tabla-->
