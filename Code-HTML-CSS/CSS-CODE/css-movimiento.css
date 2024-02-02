@@ -1,5 +1,5 @@
 *{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .box {
@@ -26,6 +26,9 @@
 	color: #fff; background-color: #59B0E5;
 	border: 1px solid #59B0E5;
 	cursor: pointer;
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
 }
 
 .tab-creado {
@@ -65,6 +68,20 @@
     text-align: center;
 }
 
+.desplegable{
+    border:2px solid #ffffff;
+    width: 160px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.desplegable2{
+    border: 2px solid #59B0E5;
+    background-color: #59B0E5;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
 .fecha {
     border:2px solid #E7E7E7;
     text-align: center;
@@ -80,12 +97,47 @@
     text-align: center;
     background-color: #ffffff;
     cursor: pointer;
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
 }
 
-hr {
+.logout{
+    border: 2px solid #ffffff;
+    height: 60px;
+    width: 160px;
+    text-align: center;
+    background-color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+}
+
+.boton-emergencia{
+    border: 2px solid #59B0E5;
+    height: 60px;
+    width: 160px;
+    text-align: center;
+    background-color: #59B0E5;
+    cursor: pointer;
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.hr-2 {
     margin-left: 80px;
     margin-right: 80px;
     border: 1px solid #000000;
+}
+
+.hr-1{
+    border: 1px solid #000000;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: auto;
 }
 
 .contenedor-tabla {
@@ -136,3 +188,14 @@ tbody td {
   [type="date"]::-webkit-calendar-picker-indicator {
     opacity: 0;
   }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-opciones{
+    display: flex;
+}
+
+
